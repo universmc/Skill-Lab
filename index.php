@@ -15,7 +15,9 @@
             // Vous pouvez inclure ici le contenu principal de votre page.
             // Par exemple, un système de gestion de contenu dynamique basé sur des fichiers PHP ou des données de base de données.
             include 'src/inc/main.php';
+            include 'src/inc/content/event/howto.php';
             ?>
+
         </main>
         <footer>
             <?php include 'src/inc/footer.php'; ?> <!-- Inclusion du pied de page -->

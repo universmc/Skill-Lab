@@ -1,0 +1,56 @@
+{
+    "project": "oc.univers-mc.cloud",
+    "description": "Site Web pour le suivi de cours en machine learning et développement web",
+    "makefile_tasks": {
+      "html": {
+        "source": "src/index.html",
+        "target": "build/pages/cours/languages/sass/index.html",
+        "command": "html-lint src/index.html > build/pages/cours/languages/sass/index.html"
+      },
+      "css": {
+        "source": "src/css/index.scss",
+        "target": "build/assets/css/main.css",
+        "command": "sass src/css/index.scss build/assets/css/main.css"
+      },
+      "src": {
+        "source": "src/",
+        "target": "build/src",
+        "command": "mkdir -p build/src && cp -r src/* build/src"
+      }
+    },
+    "components": {
+      "header": "src/inc/header.php",
+      "footer": "src/inc/footer.php",
+      "main": "src/inc/main.php",
+      "content": "src/inc/content/"
+    },
+    "api_endpoints": {
+      "base_url": "/api",
+      "routes": [
+        {"path": "/articles", "description": "Fetch articles"},
+        {"path": "/gallery", "description": "Fetch gallery images"},
+        {"path": "/tutorials", "description": "Fetch tutorials"}
+      ]
+    },
+    "web_pages": {
+      "home": "www/oc.univers-mc.cloud/index.html",
+      "cours": "www/oc.univers-mc.cloud/cours",
+      "projets": "www/oc.univers-mc.cloud/projets",
+      "skill-lab": "www/oc.univers-mc.cloud/skill-lab",
+      "soutenance": "www/oc.univers-mc.cloud/soutenance"
+    },
+    "build_commands": {
+      "create_component": "make create_component COMPONENT_NAME",
+      "create_page": "make create_page PAGE_NAME",
+      "watch_sass": "sass --watch src/css/index.scss:build/assets/css/main.css --style compressed"
+    },
+    "environment_setup": {
+      "install_dependencies": "npm install",
+      "virtual_environment": {
+        "create": "python3 -m venv venv",
+        "activate": "source venv/bin/activate",
+        "install_requirements": "pip3 install -r requirements.txt"
+      }
+    }
+  }
+  

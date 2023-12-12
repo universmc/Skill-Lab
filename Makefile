@@ -1,10 +1,10 @@
 # Chemins des fichiers sources
 HTML_SOURCE := src/index.html
-SCSS_SOURCE := src/styles/main.scss
-JS_SOURCE := src/scripts/main.js
+SCSS_SOURCE := src/css/index.scss
+JS_SOURCE := src/js/script.js
 
 # Chemins des fichiers cibles
-HTML_TARGET := build/pages/cours/sass/index.html
+HTML_TARGET := build/pages/cours/languages/sass/index.html
 CSS_TARGET := build/assets/css/main.css
 SRC_TARGET := build/src
 

@@ -66,6 +66,26 @@ Points Généraux
 
 
 [SESSION_]
+# Notes ChatGPT - [Date de la Session]
+
+## Aperçu de la Session
+Session de brainstorming/développement pour `oc.univers-mc.cloud` le [Date].
+
+## Points Clés Discutés
+- Structuration du `Makefile`.
+- Conception de la page d'accueil.
+- Stratégies de gestion du contenu.
+
+## Solutions et Idées Générées
+- Utilisation de SASS pour le style.
+- Structure modulaire pour le contenu PHP.
+- Optimisation des performances et de la sécurité.
+
+## Prochaines Étapes
+- Finaliser la page d'accueil.
+- Tester la compilation SASS avec le Makefile.
+- Documenter les changements et mises à jour.
+
 
 1. Brainstorming Général - Fonctionnalités & Objectifs ([src])
 
