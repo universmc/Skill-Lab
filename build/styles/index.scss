@@ -7,9 +7,14 @@ html, body {
     margin: 0;
     padding: 0;
 }
-
-
-
+:root {
+    --html-color: #3b1616;;
+    --css-color: #5c4719;;
+    --js-color: #063120;;
+    --php-color:  #061326;;
+    --sql-color: #2c052d;
+    --body-background: white;
+  }
 
         /******************  */
         /*      header       */
@@ -147,7 +152,7 @@ html, body {
             height: 100%;
             padding:10px;
             border-radius: 10px;
-            background-color: #3c2929;
+            background-color: var(--html-color);
             &:hover{
                 width: 90%;
                 height: 100%;
@@ -159,7 +164,7 @@ html, body {
             height: 100%;
             padding:10px;
             border-radius: 10px;
-            background-color: #3a293c;
+            background-color: var(--css-color);
             &:hover{
                 width: 90%;
                 height: 100%;
@@ -171,7 +176,7 @@ html, body {
             height: 100%;
             padding:10px;
             border-radius: 10px;
-            background-color: #30293c;
+            background-color: var(--js-color);
             &:hover{
                 width: 90%;
                 height: 100%;
@@ -183,7 +188,7 @@ html, body {
             height: 100%;
             padding:10px;
             border-radius: 10px;
-            background-color: #293c33;
+            background-color: var(--php-color);
             &:hover{
                 width: 90%;
                 height: 100%;
@@ -195,7 +200,7 @@ html, body {
             height: 100%;
             padding:10px;
             border-radius: 10px;
-            background-color: #3c3b29;
+            background-color: var(--sql-color);
             &:hover{
                 width: 90%;
                 height: 100%;

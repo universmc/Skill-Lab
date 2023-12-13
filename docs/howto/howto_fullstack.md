@@ -1,3 +1,10 @@
+2. howto_fullstack.md
+
+    Vue d'Ensemble : Introduction au développement Full Stack.
+    Stacks Technologiques : Présentation des combinaisons courantes (MERN, LAMP, etc.).
+    Développement de Projet : Guide étape par étape pour construire une application Full Stack.
+    Introduction au DevOps : Principes de base et leur application dans Full Stack.
+
 Structure Générale du Guide "How-To"
 
     Introduction

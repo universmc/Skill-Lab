@@ -9,6 +9,15 @@ html, body {
   padding: 0;
 }
 
+:root {
+  --html-color: #3b1616;
+  --css-color: #5c4719;
+  --js-color: #063120;
+  --php-color: #061326;
+  --sql-color: #2c052d;
+  --body-background: white;
+}
+
 /******************  */
 /*      header       */
 /* ***************** */
@@ -144,7 +153,7 @@ main {
   height: 100%;
   padding: 10px;
   border-radius: 10px;
-  background-color: #3c2929;
+  background-color: var(--html-color);
 }
 .step1:hover {
   width: 90%;
@@ -157,7 +166,7 @@ main {
   height: 100%;
   padding: 10px;
   border-radius: 10px;
-  background-color: #3a293c;
+  background-color: var(--css-color);
 }
 .step2:hover {
   width: 90%;
@@ -170,7 +179,7 @@ main {
   height: 100%;
   padding: 10px;
   border-radius: 10px;
-  background-color: #30293c;
+  background-color: var(--js-color);
 }
 .step3:hover {
   width: 90%;
@@ -183,7 +192,7 @@ main {
   height: 100%;
   padding: 10px;
   border-radius: 10px;
-  background-color: #293c33;
+  background-color: var(--php-color);
 }
 .step4:hover {
   width: 90%;
@@ -196,7 +205,7 @@ main {
   height: 100%;
   padding: 10px;
   border-radius: 10px;
-  background-color: #3c3b29;
+  background-color: var(--sql-color);
 }
 .step5:hover {
   width: 90%;
